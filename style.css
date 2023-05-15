@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #1F2937;
+}
+.logo {
+    font-size: 24px;
+    color: white;
+    padding-left: 15px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+li {
+    padding-right: 20px;
+}
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: turquoise;
+}
+
+
+.intro-part {
+    height: 500px;
+    background-color: #1F2937;
+    color: white;
+}
+.intro-part .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+/* Having trouble getting kitty picture right
+   Manually setting it for now
+*/
+.kitty {
+  width: 450px;
+  height: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.info-button {
+    color: white;
+    background-color: #3882f6;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.picture-part {
+    display: flex;
+    flex-direction: column;
+    background-color: white
+    color: black;
+    justify-content: space-around;
+    width: auto;
+    height: 500px;
+}
+.food-pictures {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.food-pictures div img {
+    height: 200px; 
+    width: 200px;
+}
+
+.page-info {
+    max-width: 400px;
+    padding-left: 160px;
+}
+
+header div .pic-div {
+    text-align: center;
+}
+.info-heading {
+    align-self: center;
+}
+
+
+.quote-part {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+
+.sign-part {
+    height: 300px;
+    background-color: white;
+}
+
+
+.bottom-part {
+    background-color: #1F2937;
+    color: white;
+    height: 75px;
+    text-align: center;
+    padding-top: 30px;
+}
